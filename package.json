@@ -1,0 +1,16 @@
+{
+  "name": "mailer",
+  "version": "0.0.1",
+  "description": "Mailer notifier for Chatanoo",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Mathieu Desvé",
+  "license": "BSD",
+  "dependencies": {
+    "socket.io-client": "~0.9.16",
+    "node-mandrill": "~1.0.1"
+  }
+}
