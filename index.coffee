@@ -20,6 +20,7 @@ socket.on 'items', (data)->
 					from_email: 'admin@chatanoo.org'
 					to: [
 						{ email: 'carolannbraun@free.fr' }
+						# { email: 'mathieu.desve@me.com' }
 					]
 					subject: '[Chatanoo] Nouvelle contribution'
 					text: content
